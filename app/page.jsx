@@ -17,8 +17,8 @@ function Home() {
       </div>
 
       <div className="grid md:grid-cols-4 grid-cols-2 my-11 gap-7">
-        {data.map((prod) => (
-          <Prodcut product={prod} />
+        {data.map((prod, key) => (
+          <Prodcut key={key} product={prod} />
         ))}
       </div>
     </div>

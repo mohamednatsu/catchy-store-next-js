@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 
 
-export default function Prodcut({ product }) {
+export default function Prodcut({ product, key }) {
 
     const [inCart, setInCart] = useState(false)
 
@@ -21,7 +21,7 @@ export default function Prodcut({ product }) {
     return (
 
 
-        <div className="flex flex-col justify-center items-center ">
+        <div key={key} className="flex flex-col justify-center items-center ">
         <div className="w-full flex flex-row mb-4 justify-start items-center z-50">
 
         {inCart ? <BsCartCheckFill onClick={handleCart} className='text-white cursor-pointer' size={23} />
