@@ -6,7 +6,7 @@ import React, { useState } from "react";
 
 import { MdDelete } from "react-icons/md";
 
-export default function page() {
+export default function Page() {
     let cartProdcuts = data.slice(0, 3);
 
     let sumTotal = cartProdcuts.reduce((prod1) => prod1.price+0)

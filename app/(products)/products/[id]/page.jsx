@@ -7,7 +7,7 @@ import { useState } from 'react';
 import Head from 'next/head';
 import { Helmet } from 'react-helmet-async';
 
-function page({ params }) {
+function Page({ params }) {
 
     const { id } = params;
 
