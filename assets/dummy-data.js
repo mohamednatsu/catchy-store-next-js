@@ -63,7 +63,7 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img5
+        imageProduct: img7
     },
     {
         id: 6,
@@ -85,7 +85,7 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img7
+        imageProduct: img5
     },
     {
         id: 8,

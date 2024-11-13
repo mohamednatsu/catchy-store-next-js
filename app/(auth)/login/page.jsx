@@ -8,7 +8,7 @@ function page() {
                 <h2 className='text-white font-bold text-4xl'>Login</h2>
             </div>
 
-            <div className="flex justify-center items-center flex-col gap-5 w-1/3">
+            <div className="flex justify-center items-center flex-col gap-5 w-3/4 md:w-1/3">
                 <div className="w-full">
                     <input placeholder='Email' className=" h-12 w-full rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
                 </div>
@@ -18,12 +18,12 @@ function page() {
             </div>
 
 
-            <div className="w-1/2 flex justify-end">
+            <div className="md:w-1/2 flex justify-end">
             <button type="button" className=' bg-white text-lg rounded-2xl my-6 text-center py-1 px-6 hover:translate-y-[-3px] translate-y-0  transition-all shadow-lg'>Login</button>
             </div>
 
 
-            <div className="flex justify-center gap-6 items-center sm:flex-col md:flex-row">
+            <div className="flex justify-center gap-6 items-center sm:flex-col md:flex-row text-[10px]">
                 <div className=" capitalize">
                     <p className='text-white/80'>
                         if you forget your password ?

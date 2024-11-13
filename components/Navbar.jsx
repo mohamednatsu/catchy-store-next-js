@@ -13,9 +13,9 @@ function Navbar({open, handleOpen}) {
         <div className='flex flex-row justify-center items-center h-18 gap-7 p-5 mx-auto'>
             <div className="w-1/2  flex justify-center items-center" onClick={handleOpen}>
                 {open ?
-                    <IoClose size={33} color='white' className=' cursor-pointer hover:text-white/90 transition' />
+                    <IoClose  color='white' className=' cursor-pointer hover:text-white/90 transition md:text-[33px] text-[25px]' />
                     :
-                    <IoMenu size={33} color='white' className=' cursor-pointer hover:text-white/90 transition' />
+                    <IoMenu color='white' className=' cursor-pointer hover:text-white/90 transition md:text-[33px] text-[25px]' />
                 }
             </div>
             <div className="w-1/3 flex justify-center items-center">
@@ -25,7 +25,7 @@ function Navbar({open, handleOpen}) {
             </div>
             <div className="w-1/2 flex justify-center items-center">
                 <Link href={"/carts"}>
-                    <HiOutlineShoppingBag size={33} color='white' className=' cursor-pointer hover:text-white/90 transition' />
+                    <HiOutlineShoppingBag color='white' className=' cursor-pointer hover:text-white/90 transition md:text-[33px] text-[25px]' />
                 </Link>
             </div>
         </div>

@@ -13,9 +13,9 @@ function Footer() {
                 </div>
                 <div className="text-white/80">
                     <ul className=' py-8 flex flex-col gap-5 '> 
-                        <Link href={"/shipping"} className={"cursor-pointer hover:underline transition-all"}>shipping</Link>
-                        <Link href={"/about"} className={"cursor-pointer hover:underline transition-all"}>about</Link>
-                        <Link href={"/privacy"} className={"cursor-pointer hover:underline transition-all"}>privacy and policy</Link>
+                        <Link href={"/contact"} className={"cursor-pointer hover:underline transition-all text-[10px] md:text-[18px]"}>contact</Link>
+                        <Link href={"/about"} className={"cursor-pointer hover:underline transition-all text-[10px] md:text-[18px]"}>about</Link>
+                        <Link href={"/privacy"} className={"cursor-pointer hover:underline transition-all text-[10px] md:text-[18px]"}>privacy and policy</Link>
                     </ul>
                 </div>
             </div>
