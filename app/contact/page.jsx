@@ -7,14 +7,14 @@ function page() {
                 <h2 className='text-white font-bold text-4xl'>Contact Us</h2>
             </div>
 
-            <div className="flex justify-center items-center flex-col gap-5 md:w-1/3 sm:w-1/2 sm:mx-3">
+            <div className="flex justify-center items-center flex-col gap-5 md:w-1/3 w-[80%] sm:mx-3">
                 <div className="flex flex-row justify-around items-center gap-7 w-full">
                     <input placeholder='First name' className=" h-12 w-full rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
                     <input placeholder='Second name' className=" h-12 w-full rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
                 </div>
                 <div className="flex flex-row justify-around items-center gap-7 w-full">
                     <input placeholder='Email address' className=" h-12 w-full rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
-                    <input placeholder='Order number' className=" h-12 w-[60%]  rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
+                    <input placeholder='Order Num.' className=" h-12 w-[60%]  rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
                 </div>
                 <div className="w-full">
                     <input placeholder='Subject' className=" h-12 w-full rounded-xl bg-gray-300/35 outline-none pl-3 text-white shadow-lg" type="text" />
