@@ -59,7 +59,7 @@ export default function Prodcut({ product, key }) {
                         </h3>
 
                         <p className="text-white/50 mt-2 md:text-lg text-[10px]">
-                            {Math.floor(price)} BHD
+                            {Math.round(price)} BHD
                         </p>
 
                     </div>

@@ -59,7 +59,7 @@ function Page({ params }) {
                             </p>
 
                             <h3 className="text-white md:text-[24px] text-[21px] font-bold">
-                                {Math.floor(price)} BHD
+                                {Math.round(price)} BHD
                             </h3>
 
                             <h3 className="text-white/90 md:text-[18px] text-[15px]">
