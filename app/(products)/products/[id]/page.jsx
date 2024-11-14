@@ -73,19 +73,19 @@ function Page({ params }) {
                         </div>
                     </div>
 
-                    <div className="md:w-1/2 w-[70%] flex flex-row-reverse gap-9 justify-center items-center">
+                    <div className="md:w-1/2 w-[90%] flex flex-row-reverse gap-9 justify-between items-center">
                         {/* {isLoading &&  <Loading size={24} color={"white"} />  } */}
 
                         <FaArrowRight
                             onClick={handleNextSlide}
                             color="white"
-                            className="cursor-pointer hover:translate-x-[4px] transition-all duration-700 ease-in-out"
+                            className="cursor-pointer hover:translate-x-[4px] transition-all  md:text-[33px] text-[30px]"
                             size={30}
                         />
 
                         <Image
                             onLoadingComplete={() => setLoading(false)}
-                            className="md:w-[50%] md:h-[50%] w-[75%] rounded-lg shadow-md transition-all delay-150"
+                            className="md:w-[50%] md:h-[50%] w-[65%] rounded-lg shadow-md transition-all delay-150"
                             alt={product.name}
                             src={currentImage}
                         />
@@ -93,7 +93,7 @@ function Page({ params }) {
                         <FaArrowLeft
                             onClick={handlePrevSlide}
                             color="white"
-                            className="cursor-pointer hover:translate-x-[-4px] transition-all"
+                            className="cursor-pointer hover:translate-x-[-4px] transition-all md:text-[33px] text-[30px]"
                             size={30}
                         />
                     </div>
