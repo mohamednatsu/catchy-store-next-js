@@ -13,9 +13,9 @@ function Home() {
 
   return (
     <div className="container flex flex-col justify-around items-center w-full my-16">
-      <div className=" flex justify-start w-1/2 my-12 items-center gap-3 text-white">
-        <h2 className="md:text-3xl text-lg font-light ">
-          The Most Popular <b className=" font-bold">Styles</b> in our store!
+      <div className=" flex justify-start w-1/2 md:my-12 my-6 items-center gap-3 text-white">
+        <h2 className="md:text-3xl text-lg md:font-light sm:font-light">
+          The Most Popular <p className=" font-bold">Styles</p> in our store!
 
         </h2>
         <div className="flex justify-center items-center pt-10">
