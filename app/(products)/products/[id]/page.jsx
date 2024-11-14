@@ -37,6 +37,9 @@ function Page({ params }) {
         console.log(index)
     }
 
+    let price = product.price - (product.price * 0.17)
+
+
     return (
         <>
             <Helmet>
@@ -47,13 +50,17 @@ function Page({ params }) {
                 <div className="flex md:flex-row-reverse flex-col-reverse justify-center items-center gap-4 w-full p-4 my-5">
                     <div className="felx md:justify-start justify-center md:items-center gap-7 w-[40%]">
                         <div className="flex gap-[34px] flex-col md:justify-start justify-center">
-                            <h2 className="text-white md:text-4xl font-bold text-[20px] text-center">
+                            <h2 className="text-white md:text-4xl font-bold text-[22px] text-center mt-7 md:mt-0">
                                 {product.name}
                             </h2>
 
                             <p className="text-white/70 list-item text-[17px]">
                                 {product.details}
                             </p>
+
+                            <h3 className="text-white md:text-[24px] text-[21px] font-bold">
+                                {Math.floor(price)} BHD
+                            </h3>
 
                             <h3 className="text-white/90 md:text-[18px] text-[15px]">
                                 {product.category}
@@ -73,14 +80,14 @@ function Page({ params }) {
                         </div>
                     </div>
 
-                    <div className="md:w-1/2 w-[90%] flex flex-row-reverse gap-9 justify-between items-center">
+                    <div className="md:w-1/2 w-[90%] flex flex-row-reverse justify-between md:justify-center gap-9 items-center">
                         {/* {isLoading &&  <Loading size={24} color={"white"} />  } */}
 
                         <FaArrowRight
                             onClick={handleNextSlide}
                             color="white"
                             className="cursor-pointer hover:translate-x-[4px] transition-all  md:text-[33px] text-[30px]"
-                            size={30}
+                            
                         />
 
                         <Image
@@ -94,7 +101,7 @@ function Page({ params }) {
                             onClick={handlePrevSlide}
                             color="white"
                             className="cursor-pointer hover:translate-x-[-4px] transition-all md:text-[33px] text-[30px]"
-                            size={30}
+                            
                         />
                     </div>
                 </div>

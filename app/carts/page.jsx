@@ -43,11 +43,11 @@ export default function Page() {
                         key={key}
                         className="flex md:flex-row flex-col h-[25%] bg-gray-200/20 justify-around items-center py-3 rounded-xl shadow-xl w-[80%] md:p-3"
                     >
-                        <div className="md:w-[20%] md:h-[20%] w-[50%] h-[50%]">
+                        <div className="md:w-[15%] md:h-[15%] w-[30%] h-[30%]">
                             <Image
                                 className="rounded-lg shadow-xl w-full"
                                 alt={item.name}
-                                src={item.imageProduct}
+                                src={item.imageProduct.front}
                             />  
                         </div>
 
@@ -73,6 +73,12 @@ export default function Page() {
                         </div>
                     </div>
                 ))}
+            </div>
+
+            <div className="flex justify-center items-center">
+                    <button className="text-center bg-white/90 rounded-md shadow-md px-10 py-2 hover:translate-y-[-2px] transition-all text-lg">
+                        Checkout
+                    </button>
             </div>
         </div>
     );

@@ -32,6 +32,8 @@ export default function Prodcut({ product, key }) {
 
     }
 
+    let price = product.price - (product.price * 0.17)
+
 
     return (
         <div key={key} className="flex flex-col justify-center items-center ">
@@ -57,7 +59,7 @@ export default function Prodcut({ product, key }) {
                         </h3>
 
                         <p className="text-white/50 mt-2 md:text-lg text-[10px]">
-                            {product.price} BHD
+                            {Math.floor(price)} BHD
                         </p>
 
                     </div>

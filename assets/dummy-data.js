@@ -19,7 +19,7 @@ export const data = [
     {
         id: 1,
         name: "White Hodie Moon",
-        price: 540,
+        price: 20,
         category: "Plovers",
         details: "Comfertable hodie for any events to feel more attractive",
         inCart: false,
@@ -33,7 +33,7 @@ export const data = [
     {
         id: 2,
         name: "Black Written Plover",
-        price: 450,
+        price: 20,
         category: "Plovers",
         details: "Comfertable plover for any events to feel more attractive",
         inCart: false,
@@ -47,7 +47,7 @@ export const data = [
     {
         id: 3,
         name: "White Hodie Shine",
-        price: 340,
+        price: 20,
         category: "Hodies",
         details: "Comfertable hodie for any events to feel more attractive",
         inCart: false,
@@ -61,7 +61,7 @@ export const data = [
     {
         id: 4,
         name: "Green Pyramids Plover",
-        price: 560,
+        price: 20,
         category: "Plovers",
         details: "Comfertable plover for any events to feel more attractive",
         inCart: false,
@@ -75,7 +75,7 @@ export const data = [
     {
         id: 5,
         name: "Sky Pants Girl",
-        price: 349,
+        price: 20,
         category: "Pants",
         details: "Comfertable pants for any events to feel more attractive",
         inCart: false,
@@ -89,7 +89,7 @@ export const data = [
     {
         id: 6,
         name: "Brown Big Plover",
-        price: 238,
+        price: 20,
         category: "Plovers",
         details: "Comfertable plover for any events to feel more attractive",
         inCart: false,
