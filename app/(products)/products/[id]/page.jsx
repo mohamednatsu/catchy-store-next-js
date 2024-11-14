@@ -4,6 +4,9 @@ import { data } from '@/assets/dummy-data';
 import Image from 'next/image';
 import { useState } from 'react';
 
+import { FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
+
 import Head from 'next/head';
 import { Helmet } from 'react-helmet-async';
 
@@ -54,10 +57,14 @@ function Page({ params }) {
 
                     </div>
 
-                    <div className="md:w-1/2 sm:w-[75%] flex justify-center items-center">
+                    <div className="md:w-1/2 sm:w-[75%] flex flex-row-reverse gap-9 justify-center items-center">
                         {/* {isLoading &&  <Loading size={24} color={"white"} />  } */}
 
-                        <Image onLoadingComplete={() => setLoading(false)} className='md:w-[50%] md:h-[50%] w-[75%] rounded-lg shadow-md' alt={product.name} src={product.imageProduct} />
+                        <FaArrowRight color='white' className='cursor-pointer hover:translate-x-[4px] transition-all' size={30} />
+
+                        <Image onLoadingComplete={() => setLoading(false)} className='md:w-[50%] md:h-[50%] w-[75%] rounded-lg shadow-md' alt={product.name} src={product.imageProduct.front} />
+                        {/* <Image onLoadingComplete={() => setLoading(false)} className='md:w-[50%] md:h-[50%] w-[75%] rounded-lg shadow-md' alt={product.name} src={product.imageProduct.back} /> */}
+                        <FaArrowLeft color='white' className='cursor-pointer hover:translate-x-[-4px] transition-all' size={30} />
 
                     </div>
                 </div>

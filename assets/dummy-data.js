@@ -1,11 +1,17 @@
-import img1 from "./images/22.png"
-import img2 from "./images/23.png"
-import img3 from "./images/24.png"
-import img4 from "./images/25.png"
-import img5 from "./images/26.png"
-import img6 from "./images/27.png"
-import img7 from "./images/28.png"
-import img8 from "./images/29.png"
+import img1 from "./bahrin-black-front.jpg"
+import img2 from "./bahrin-white-front.jpg"
+import img3 from "./porche-front.jpg"
+import img4 from "./nirvana-front.jpg"
+import img5 from "./yamaha-front.jpg"
+import img6 from "./bmw-front.jpg"
+
+
+import img11 from "./bahrin-black-back.jpg"
+import img22 from "./bahrin-white-back.jpg"
+import img33 from "./porche-back.jpg"
+import img44 from "./nirvana-back.jpg"
+import img55 from "./yamaha-back.jpg"
+import img66 from "./bmw-back.jpg"
 
 
 
@@ -19,7 +25,10 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img1
+        imageProduct: {
+            front: img6,
+            back: img66
+        }
     },
     {
         id: 2,
@@ -30,7 +39,10 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img2
+        imageProduct: {
+            front: img1,
+            back: img11
+        }
     },
     {
         id: 3,
@@ -41,7 +53,10 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img3
+        imageProduct: {
+            front: img2,
+            back: img22
+        }
     },
     {
         id: 4,
@@ -52,7 +67,10 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img4
+        imageProduct: {
+            front: img3,
+            back: img33
+        }
     },
     {
         id: 5,
@@ -63,7 +81,10 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img7
+        imageProduct: {
+            front: img4,
+            back: img44
+        }
     },
     {
         id: 6,
@@ -74,28 +95,9 @@ export const data = [
         inCart: false,
         quantity: 10,
         sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img6
-    },
-    {
-        id: 7,
-        name: "Orange Cat Tshirt",
-        price: 270,
-        category: "T shirts",
-        details: "Comfertable t shirt for any events to feel more attractive",
-        inCart: false,
-        quantity: 10,
-        sizes: ["S", "L", "XL", "XXL"],
-        imageProduct: img5
-    },
-    {
-        id: 8,
-        name: "Sport Shoes Catchy",
-        price: 230,
-        category: "Shoes",
-        details: "Comfertable shoes for any events to feel more attractive",
-        inCart: false,
-        quantity: 10,
-        sizes: [43,44, 46],
-        imageProduct: img2
+        imageProduct: {
+            front: img5,
+            back: img55
+        }
     },
 ]
