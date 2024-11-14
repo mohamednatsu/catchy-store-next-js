@@ -49,7 +49,7 @@ export default function Prodcut({ product, key }) {
             <Link href={`/products/${product.id}`} className='z-20'>
                 <div key={product.id} className=" w-full cursor-pointer ">
 
-                    <div className="flex justify-around flex-col items-center hover:translate-y-[-5px] transition-all shadow-md bg-[#d9d9d9]/25 w-full px-4 py-7 rounded-lg">
+                    <div className="flex justify-around flex-col items-center hover:translate-y-[-5px] transition-all shadow-md md:bg-[#d9d9d9]/25 w-full px-4 md:py-7 rounded-lg">
                         <Image className="rounded-lg shadow-md" width={200} height={200} alt={product.name} src={product.imageProduct.front} />
                     </div>
 

@@ -53,7 +53,7 @@ export default function Page() {
 
                         <div className="flex md:flex-col justify-start gap-5 items-start mr-6 md:w-[50%] w-[80%] p-6">
                             <h2 className="text-white font-bold md:text-2xl text-[13px]">{item.name}</h2>
-
+                    
                             <div className="flex gap-5 items-center">
                                 <p className="text-white/50 md:text-[18px] text-[13px]">BHD {item.price}</p>
 
