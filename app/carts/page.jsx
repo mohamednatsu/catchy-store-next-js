@@ -34,16 +34,16 @@ export default function Page() {
         <div className="flex flex-col justify-around items-center gap-8 w-full my-10">
             <div className="flex w-full justify-around items-center p-5 text-white font-bold md:text-xl text-lg">
                 <h2 className="">Your Bag: </h2>
-                <h2>Subtotal: 1,330 BHD</h2>
+                <h2>Subtotal: 51 BHD</h2>
             </div>
 
             <div className="flex flex-col justify-center items-center my-3 lg:w-3/4 w-full gap-10 ">
                 {cartProdcuts.map((item, key) => (
                     <div
                         key={key}
-                        className="flex md:flex-row flex-col h-[25%] bg-gray-200/20 justify-around items-center py-3 rounded-xl shadow-xl w-[80%] md:p-3"
+                        className="flex md:flex-row flex-col h-[25%] bg-gray-200/20 justify-around items-center py-3 rounded-xl shadow-xl w-[60%] md:w-[80%] md:p-3"
                     >
-                        <div className="md:w-[15%] md:h-[15%] w-[30%] h-[30%]">
+                        <div className="md:w-[15%] md:h-[15%] w-[40%] h-[40%]">
                             <Image
                                 className="rounded-lg shadow-xl w-full"
                                 alt={item.name}
